@@ -1,0 +1,23 @@
+# bash-fritzclient.config.template
+
+# URL of Fritz!Box
+# often just "http://fritz.box"
+FRITZBOX_URL="http://192.168.178.1"
+
+# FritzBox credentials
+FRITZBOX_USERNAME=""
+FRITZBOX_PASSWORD=""
+
+# password for http authentication
+HTTP_USERNAME=""
+HTTP_PASSWORD=""
+
+# Password for the config export (wihch is supposed to allow importing it on different hardware)
+EXPORT_PASSWORD=""
+
+# The directory where logs will be stored (required)
+LOG_DIRECTORY="/var/log"
+
+# enable instrimentation output
+# INSTRUMENTING="yes"
+
