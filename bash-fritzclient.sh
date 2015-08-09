@@ -57,7 +57,7 @@ if [ -z "${LOG_DIRECTORY}" ]; then
 fi
 
 if [ -z "$*" ]; then
-   echo "No commands given; valid commands are \"get-profile\" and \"reboot\"."
+   echo "No commands given; valid commands are \"get-config\" and \"reboot\"."
    exit 1
 fi
 
@@ -65,12 +65,12 @@ fi
 for _PARAMETER in "$@"
 do
     case ${_PARAMETER} in
-        "get-profile")
+        "get-config")
             ;;
         "reboot")
             ;;
         *)
-            echo "unknown command ${_PARAMETER}; valid commands are \"get-profile\" and \"reboot\"."
+            echo "unknown command ${_PARAMETER}; valid commands are \"get-config\" and \"reboot\"."
             exit 1
             ;;
     esac
