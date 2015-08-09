@@ -65,7 +65,7 @@ fi
 for _PARAMETER in "$@"
 do
     case ${_PARAMETER} in
-        "get-config")
+        "get-profile")
             ;;
         "reboot")
             ;;
